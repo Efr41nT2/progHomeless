@@ -1,4 +1,4 @@
-![Texto alternativo](test.png "Título alternativo")
+!(test.png "Título alternativo")
 C++
 Bash
 Rub
