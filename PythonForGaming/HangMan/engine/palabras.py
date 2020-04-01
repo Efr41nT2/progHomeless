@@ -1,0 +1,20 @@
+lista_palabras = [
+        'aguapanela',
+        'buñelos',
+        'rellenas',
+        'bollos',
+        'bienestarina',
+        'empanadas',
+        'caribañolas',
+        'arrozdeasadura',
+        'arrozdemenudencia',
+        'pandequeso',
+        'arepaehuevo',
+        'agua',
+        'wuwurs',
+        'woworowos',
+        'installgentus',
+        'gnome',
+        'pandeyuca',
+        'arrozdesardina'
+    ]
