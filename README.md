@@ -1,4 +1,5 @@
 !(test.png "Título alternativo")
 C++
 Bash
-Rub
+Ruby
+python(for gaming)
