@@ -1,4 +1,4 @@
-!(test.png "Título alternativo")
+!(test.png)
 C++
 Bash
 Ruby
