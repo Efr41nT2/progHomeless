@@ -1,0 +1,6 @@
+#!/bin/env bash
+
+calendary(){
+    date +"${1:-} "%D\ %R
+}
+echo $(calendary)

@@ -1,0 +1,9 @@
+#!/bin/env bash
+
+disk(){
+    echo "ROOT: "
+    df -h "${1:-/}" | awk '/\/dev\//{print "'"${2:-}"' "$3-G"/"$2}'
+    echo "Home: "
+    df -h "${1:-/home}" | awk '/\/dev\//{print "'"${2:-}"' "$3-G"/"$2}'
+}
+echo $(disk)

@@ -1,0 +1,10 @@
+#!/bin/env bash
+
+trash(){
+    [ -d "$HOME/.local/share/Trash/files" ] && {
+        du -hc $HOME/.local/share/Trash/files | awk '/total$/{print "'"${1:-} "'"$1}'
+    } || {
+        echo "${1:-} ---"
+    }
+}
+echo $(trash)
